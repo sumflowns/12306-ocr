@@ -16,7 +16,7 @@ RUN apt-get update \
 COPY . .
 COPY config.toml.example config.toml
 
-EXPOSE 8000
+EXPOSE 5000
 
 CMD [ "python", "main.py"]
 
