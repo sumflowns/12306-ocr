@@ -12,7 +12,7 @@ class Web:
         app.run(**Config.WEB)
 
 
-@app.route('/check', methods=['POST'], strict_slashes=False)
+@app.route('/verify/base64', methods=['POST'], strict_slashes=False)
 def check():
     img = request.form.get('img')
     try:
