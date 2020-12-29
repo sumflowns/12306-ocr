@@ -19,7 +19,7 @@ class Config:
     TEXTS_FILE = PROJECT_DIR + 'ocr/texts.txt'
 
     WEB = {
-        'host': '192.168.10.101',
+        'host': '127.0.0.1',
         'port': 5002
     }
     OCR = {
